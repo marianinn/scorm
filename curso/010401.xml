@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="escribir" 
+		enunciado="Ejercicio de escribir (sólamente escribir)" 
+		anchocajas="50" 
+		maxCaracteres="15"
+		tamTexto="20" 
+		colorTexto="235689" 
+		tamTextoEscrito="20" 
+		colorTextoEscrito="986532"
+		colorTextoCorregido="000000"
+		fondoCaja="no"
+		colorCaja="FFECD5"
+		bordeCaja="si"
+		colorBorde="FF0000"
+		permitirMayusculas="si"
+		distincionMayusculas="si"
+		ajustarAContenido="si"
+		evaluacion="global"
+		bordesBotones="100">
+
+		<ORACION frase="El cielo es *." solucion="Azul#alto#gris,2" x="100" y="110" anchocaja="40"/>
+		<ORACION frase="La hierba es *." solucion="verde#muy verde" x="100" y="150"/>
+		<ORACION frase="Es * como la nieve." solucion="blanco#blanca" x="100" y="190"/>
+		<ORACION frase="Un plátano *." solucion="amarillo" x="100" y="230" anchocaja="100"/>
+		<ORACION frase="Una naranja de color... ¡*!" solucion="naranja#NAranja" x="100" y="270" anchocaja="90"/>
+		<ORACION frase="*______________________" solucion="æ¼œß" x="100" y="310"/>
+		<BOTONES>
+			<BOTON texto="æ" xBot="550" yBot="200" anchoBot="poligono" altoBot="0,0:25,0:25,25:50,25:50,50:0,50"/>
+			<BOTON texto="¼" xBot="550" yBot="260" anchoBot="50" altoBot="50"/>
+			<BOTON texto="œ" xBot="550" yBot="320" anchoBot="50" altoBot="50"/>
+			<BOTON texto="ß" xBot="550" yBot="380" anchoBot="50" altoBot="50"/>
+		</BOTONES>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bescribir/B" x="900" y="20">
+	</TEXTO>
+	<IMG archivo="010201b.jpg" x="150" y="50" posicion="debajo"/>
+	<IMG archivo="010201b.jpg" x="520" y="50" posicion="encima"/>
+	
+	
+	
+	
+	

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="combo" 
+		enunciado="combos ancho/alto variable*evaluacion=''parcial''*textoCombo de varias líneas*combos de imágenes*color bordes" 
+		anchocajas="60"
+		tamTexto="16" 
+		colorTexto="235689" 
+		tamTextoCombo="16" 
+		colorTextoCombo="FF0000"
+		colorBordes="FF0000"
+		alphaBordes="100"
+		textoInicial="Elige..."
+		desordenarCombos="no"
+		evaluacion="parcial"
+		sonidosCorreccionParcial="si"
+		sonidoBienFinal="si">
+		
+		<ORACION frase="Combo * normal." opciones="uno,dos,tres" solucion="1,2,3" x="200" y="150"/>
+		<ORACION frase="Combo * grande." opciones="primera*opción,segunda*opción, tercera*opción" solucion="3" x="200" y="250" ancho="160" alto="45"/>
+		<ORACION frase="Combo * pequeño." opciones="1,2,3" solucion="3" x="200" y="350" ancho="30"/>
+		<ORACION frase="Combo * con imágenes." opciones=",,," solucion="1#3" x="500" y="250" ancho="120" alto="80"/>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bcombo/B" x="900" y="20">
+	</TEXTO>

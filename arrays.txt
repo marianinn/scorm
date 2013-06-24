@@ -1,0 +1,618 @@
+Array
+(
+    [MENU] => Array
+        (
+            [attr] => Array
+                (
+                    [unidades] => no
+                )
+
+            [UNIDAD] => Array
+                (
+                    [0] => Array
+                        (
+                            [attr] => Array
+                                (
+                                    [x] => 150
+                                    [y] => 100
+                                    [ancho] => 300
+                                    [alto] => 40
+                                )
+
+                            [EJERCICIO] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 100
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 6
+                                                    [ud] => 1 arrastrar
+                                                    [activo] => no
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 150
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 2 botones
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 200
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 4
+                                                    [ud] => 3 combo
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 250
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 3
+                                                    [ud] => 4 escribir
+                                                )
+
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 300
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 4
+                                                    [ud] => 5 memory
+                                                )
+
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 350
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 6 puzzle
+                                                )
+
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 400
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 11
+                                                    [ud] => 7 relacionar
+                                                )
+
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 450
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 3
+                                                    [ud] => 8 sopa
+                                                )
+
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 500
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 10
+                                                    [ud] => 9 flash
+                                                )
+
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 550
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 4
+                                                    [ud] => 10 crucigrama
+                                                )
+
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 600
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 4
+                                                    [ud] => 11 dictado
+                                                )
+
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 650
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 12
+                                                    [ud] => 12 test
+                                                )
+
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 100
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 6
+                                                    [ud] => 13 paisaje sonoro
+                                                )
+
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 150
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 2
+                                                    [ud] => 14 simon
+                                                )
+
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 200
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 15 historia
+                                                )
+
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 250
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 6
+                                                    [ud] => 16 cazamariposas
+                                                )
+
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 300
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 6
+                                                    [ud] => 17 laberinto
+                                                )
+
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 350
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 14
+                                                    [ud] => 18 clasificar
+                                                )
+
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 400
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 6
+                                                    [ud] => 19 escuchar
+                                                )
+
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 450
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 6
+                                                    [ud] => 20 colorear
+                                                )
+
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 500
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 21 pulsar
+                                                )
+
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 550
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 22 juego de la oca
+                                                )
+
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 500
+                                                    [y] => 600
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 23 adivinar
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [EJERCICIO] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 100
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 6
+                                                    [ud] => 1 arrastrar
+                                                    [activo] => no
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 150
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 2 botones
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 200
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 4
+                                                    [ud] => 3 combo
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 250
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 3
+                                                    [ud] => 4 escribir
+                                                )
+
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 300
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 4
+                                                    [ud] => 5 memory
+                                                )
+
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [attr] => Array
+                                                (
+                                                    [x] => 150
+                                                    [y] => 350
+                                                    [ancho] => 200
+                                                    [alto] => 40
+                                                    [pantallas] => 5
+                                                    [ud] => 6 puzzle
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+-------------------------------------------
+Array
+(
+    [EJERCICIO] => Array
+        (
+            [attr] => Array
+                (
+                    [tipo] => escribir
+                    [enunciado] => Ejercicio de escribir (sólamente escribir)
+                    [anchocajas] => 50
+                    [maxCaracteres] => 15
+                    [tamTexto] => 20
+                    [colorTexto] => 235689
+                    [tamTextoEscrito] => 20
+                    [colorTextoEscrito] => 986532
+                    [colorTextoCorregido] => 000000
+                    [fondoCaja] => no
+                    [colorCaja] => FFECD5
+                    [bordeCaja] => si
+                    [colorBorde] => FF0000
+                    [permitirMayusculas] => si
+                    [distincionMayusculas] => si
+                    [ajustarAContenido] => si
+                    [evaluacion] => global
+                    [bordesBotones] => 100
+                )
+
+            [ORACION] => Array
+                (
+                    [0] => Array
+                        (
+                            [attr] => Array
+                                (
+                                    [frase] => El cielo es *.
+                                    [solucion] => Azul#alto#gris,2
+                                    [x] => 100
+                                    [y] => 110
+                                    [anchocaja] => 40
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [attr] => Array
+                                (
+                                    [frase] => La hierba es *.
+                                    [solucion] => verde#muy verde
+                                    [x] => 100
+                                    [y] => 150
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [attr] => Array
+                                (
+                                    [frase] => Es * como la nieve.
+                                    [solucion] => blanco#blanca
+                                    [x] => 100
+                                    [y] => 190
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [attr] => Array
+                                (
+                                    [frase] => Un plátano *.
+                                    [solucion] => amarillo
+                                    [x] => 100
+                                    [y] => 230
+                                    [anchocaja] => 100
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [attr] => Array
+                                (
+                                    [frase] => Una naranja de color... ¡*!
+                                    [solucion] => naranja#NAranja
+                                    [x] => 100
+                                    [y] => 270
+                                    [anchocaja] => 90
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [attr] => Array
+                                (
+                                    [frase] => *______________________
+                                    [solucion] => æ¼œß
+                                    [x] => 100
+                                    [y] => 310
+                                )
+
+                        )
+
+                )
+
+            [BOTONES] => Array
+                (
+                    [BOTON] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [attr] => Array
+                                        (
+                                            [texto] => æ
+                                            [xBot] => 550
+                                            [yBot] => 200
+                                            [anchoBot] => poligono
+                                            [altoBot] => 0,0:25,0:25,25:50,25:50,50:0,50
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [attr] => Array
+                                        (
+                                            [texto] => ¼
+                                            [xBot] => 550
+                                            [yBot] => 260
+                                            [anchoBot] => 50
+                                            [altoBot] => 50
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [attr] => Array
+                                        (
+                                            [texto] => œ
+                                            [xBot] => 550
+                                            [yBot] => 320
+                                            [anchoBot] => 50
+                                            [altoBot] => 50
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [attr] => Array
+                                        (
+                                            [texto] => ß
+                                            [xBot] => 550
+                                            [yBot] => 380
+                                            [anchoBot] => 50
+                                            [altoBot] => 50
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

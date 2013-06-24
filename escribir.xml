@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="escribir" 
+		enunciado="escribir" 
+		anchocajas="100" 
+		maxCaracteres="6"
+		tamTexto="20" 
+		colorTexto="235689" 
+		tamTextoEscrito="20" 
+		colorTextoEscrito="986532"
+		alinearTextoEscrito="left"
+		colorTextoCorregido="000000"
+		fondoCaja="si"
+		colorCaja="CCCC55"
+		bordeCaja="no"
+		colorBorde="FF0000"
+		permitirMayusculas="no"
+		distincionMayusculas="no"
+		evaluacion="global"
+		ajustarAContenido="si">
+
+		<ORACION frase="Este animal es una *." solucion="vaca" x="350" y="130" anchocaja="80" xImg="200" yImg="100" anchoImg="120" altoImg="80"/>
+		<ORACION frase="Este animal es una *." solucion="oveja" x="350" y="230" xImg="200" yImg="200" anchoImg="120" altoImg="80"/>
+		<ORACION frase="Este animal es un *." solucion="perro" x="350" y="330" xImg="200" yImg="300" anchoImg="120" altoImg="80"/>
+		<ORACION frase="Este animal es un *." solucion="gato" x="350" y="430" xImg="200" yImg="400" anchoImg="120" altoImg="80" caracteresPermitidos="A-Z^abc"/>
+		<BOTONES>
+			<BOTON texto="æ" xBot="550" yBot="200" anchoBot="50" altoBot="50"/>
+			<BOTON texto="¼" xBot="550" yBot="260" anchoBot="50" altoBot="50"/>
+			<BOTON texto="œ" xBot="550" yBot="320" anchoBot="50" altoBot="50"/>
+			<BOTON texto="ß" xBot="550" yBot="380" anchoBot="50" altoBot="50"/>
+		</BOTONES>
+	</EJERCICIO>

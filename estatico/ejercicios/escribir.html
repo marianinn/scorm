@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>
+    	Escribir
+    </title>
+    
+<script src="funciones.js" language="JavaScript" type="text/javascript"> </script>
+
+<script language="javascript">
+function caracter(a)
+{
+//alert(document);
+//alert (a);	
+}
+
+function cambiaFoco (elem)
+{
+sFoco = elem.name;	
+}
+</script>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body>
+
+	<h2> Ejercicio de escribir (s&oacute;lamente escribir) </h2>
+    <form name="form1" action="escribir.html" method="post">
+    <input type="hidden" id="idEjercicio" value="010401" >
+    
+    <input type="text" name="prueba" id="prueba" onFocus="cambiaFoco(this)" onKeyPress="caracter(this)">
+    <div class="oracion">
+    Este animal es una <input type="text" id="a1" name="a1" lang="vaca#cow#1" onFocus="cambiaFoco(this)" onChange="validaUno('form1','a1')">
+    </div>
+    <div class="oracion">
+    Este animal es una <input type="text" id="a2" name="a2" lang="perro">
+    </div>
+
+    
+    <input id="valida" name="validar" value="Validar" type="button" onClick="validaForm('form1');">
+    <input id="resetea" name="repetir" value="Repetir" type="button" onClick="reseteaForm('form1');">
+    <input id="caracter1" name="char1" value="æ" type="button" onClick="EscribeBoton(this.value);">
+    
+    </form>
+    
+    <hr>
+    
+    <h2> Ejercicio de escribir  + audio*evaluacion=&apos;&apos;parcial&apos;&apos;</h2>
+    <form name="form2" action="escribir.html" method="post">
+    <input type="hidden" id="idEjercicio" value="010402" >
+    
+    <div class="oracion">
+    <img src="01040201.jpg" width="120" height="80" align="middle">
+    Este animal es una <input type="text" id="a1" name="a1" lang="vaca" onChange="validaUno('form2','a1')">.
+    </div>
+    
+    <div class="oracion">
+    <img src="01040202.jpg" width="120" height="80" align="middle">
+    Este animal es una <input type="text" id="a2" name="a2" lang="oveja" onChange="validaUno('form2','a2')">.
+    </div>
+    
+    <div class="oracion">
+    perro
+    </div>
+    
+    <div class="oracion">
+    gato
+    </div>
+    
+    <input id="valida" name="validar" value="Validar" type="button" onClick="validaForm('form2');">
+    <input id="resetea" name="repetir" value="Repetir" type="button" onClick="reseteaForm('form2');">
+    </form>
+    <hr>
+    <h2> + scroll*+caracteresPermitidos </h2>
+    <form name="form3" action="escribir.html" method="post">
+    <input type="hidden" id="idEjercicio" value="010403">
+    
+    <div class="oracion">
+    <img src="01040201.jpg" width="120" height="80" align="middle">
+    Escribe una frase sin 123 <pre> ^abcABC123,.?\-\\\^&gt; </pre><br>
+    <input type="text" id="1" name="1" lang="Este animal es una vaca" >.
+    </div>
+    
+    <div class="oracion">
+    <img src="01040202.jpg" width="120" height="80" align="middle">
+    Escribe una frase con todos los caracteres 123<br>
+    <input type="text" id="2" name="2" lang="Este animal es 1 oveja" >.
+    </div>
+    </form>
+    
+</body>
+</html>

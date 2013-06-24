@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>
+Botones
+</title>
+
+<script src="funciones.js" language="JavaScript"> </script>
+
+<style>
+
+input[type="radio"]{
+/*position: absolute;*/
+left: -9;
+}
+
+
+label {
+
+padding: 0.5em;
+padding-left: 10px;
+margin: 2px 5px 2px 5px;
+
+background-position: 8px center;
+background-repeat: no-repeat;
+
+background-color: #FFF;
+border: 5px solid #252525;
+
+color:#000;
+
+clear: both;
+cursor: pointer;
+}
+/*No funciona en ie (Hay que hacerlo con encienda/apaga */
+label:hover{
+	border-color:#00f;
+	background-color:#333333;
+	color:#00f;
+}
+/*
+.f_checkbox,.f_radio{background-repeat:no-repeat;background-position:3px center;height:16px;display:block;cursor:pointer;cursor:hand;line-height:120%}
+*/
+.checked,.selected{color:#f0f0f0}
+.f_radio:hover,.f_checkbox:hover{border-color:#00f;background-color:#f00; color:#fff !important}
+.f_radio{padding:4px 24px}
+.f_checkbox{padding:0.5em 24px}
+.unchecked{background-image:url(../chk_off.png)}
+.checked{background-image:url(../chk_on.png)}
+.unselected{background-color:#FFF;color:#000}
+.selected{background-color:#FF0;color:#000}
+
+.oracion{
+padding: 20px;
+background-color:#CCC;
+}
+
+</style>
+<script language="javascript">
+
+function enciende (el)
+{
+	//alert(el);
+	this.style.backgroundColor = "#0000FF";
+	this.style.borderColor = "#CCCC00";
+	this.style.color= "#FFFFFF";
+}
+
+function apaga (el)
+{
+	this.style.backgroundColor = "";
+	this.style.borderColor = "";
+	this.style.color= "";
+}
+
+function Marca(e)
+{
+	seleccionado = document.getElementsByName(this.name);
+	//Al marcar uno hay que desmarcar los otros	
+	for (i=0;i<seleccionado.length;i++)
+	{
+		if (seleccionado[i].checked==true)
+		{
+			//Accedo a traves del padre del radio
+			seleccionado[i].parentElement.className = 'selected';
+			//document.getElementById('lab'+seleccionado[i].id).className = 'selected';	
+		}
+		else
+		{
+			//Accedo a traves del nombre del label del radio
+			document.getElementById('lab'+seleccionado[i].id).className = 'unselected';
+		}
+	}
+}
+
+</script>
+</head>
+
+<body>
+<form name="form1" action="combo.html" method="post">
+<input type="hidden" id="a" value="a">
+<div class="oracion">
+Frase A
+<input type="hidden" id="s01" name="s01" value="Tres">
+<!--
+<label id="lab0101" for="0101" onMouseMove="enciende(this)" onMouseOut="apaga(this)">
+!-->
+<label id="lab0101" for="0101">
+	<input id="0101" type="radio" name="boton01" value="Uno" >Uno
+</label>
+<label id="lab0102" for="0102">
+	<input id="0102" type="radio" name="boton01" value="Dos" >Dos
+</label>
+<label id="lab0103" for="0103">
+	<input id="0103" type="radio" name="boton01" value="Tres" >Tres
+</label>
+<label id="lab0104" for="0104">
+	<input id="0104" type="radio" name="boton01" value="Cuatro" >Cuatro
+</label>
+</div>
+
+
+<input id="valida" name="validar" value="Validar" type="button" onClick="validaForm('form1');">
+<input id="resetea" name="repetir" value="Repetir" type="button" onClick="reseteaForm('form1');">
+<input id="prue" name="prueba" value="Prueba" type="button" onClick="probar('textillo');">
+
+</form>
+<hr><hr>
+<form name="form2" action="combo.html" method="post">
+
+<div class="oracion">
+<label class="f_radio unselected" style="outline-width: 0px; outline-style: initial; outline-color: initial; "><input type="radio" name="height" value="dwarf" style="position: absolute; left: +150px; "> Dwarf</label>
+<label class="f_radio unselected" style="outline-width: 0px; outline-style: initial; outline-color: initial; "><input type="radio" name="height" value="average" checked="checked" style="position: absolute; left: +150px; "> Normal Human</label>
+<label class="f_radio selected" style="outline-width: 0px; outline-style: initial; outline-color: initial; "><input type="radio" name="height" value="giant" style="position: absolute; left: +150px;" > Off the scale</label>
+<hr>
+<strong>Gender:</strong>
+		<label class='f_radio'><input type='radio' name='gender' value='male'> Masculine</label>
+		<label class='f_radio'><input type='radio' name='gender' value='female'> Feminine</label>
+		<label class='f_radio'><input type='radio' name='gender' value='common' checked='checked'> Common</label>
+		<label class='f_radio'><input type='radio' name='gender' value='neuter'> Neuter</label>
+</div>
+</form>
+
+
+<script> 
+	window.onload = function() 
+	{
+		//document.getElementById("0101").onclick = Marca;	
+		var formulario = document.getElementById("form1");
+		// var camposInput = formulario.getElementsByTagName("input");
+		var camposInput = document.forms['form1'].elements;
+		for(var i=0; i<camposInput.length; i++) 
+		{
+			if(camposInput[i].type == "radio") 
+			{
+				camposInput[i].onclick = Marca;
+				camposInput[i].parentElement.onmousemove= enciende;
+				camposInput[i].parentElement.onmouseout= apaga;
+			}
+		}
+	} 
+</script>
+</body>
+
+</html>

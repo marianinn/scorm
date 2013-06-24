@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>
+Combos
+</title>
+
+<script src="funciones.js" language="JavaScript"> </script>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body>
+<form name="form1" action="combo.html" method="post">
+<input type="hidden" id="a" value="a"/>
+
+<div class="oracion">
+<a href="#current" onClick="sound01040201.playclip()">- Oir -</a>
+Este animal es:  
+    <select solucion="vaca" lang="vaca">
+    	<option value=""></option>
+        <option value="vaca">vaca</option>
+        <option value="oveja">oveja</option>
+        <option value="perro">perro</option>
+        <option value="gato">gato</option>
+    </select> 
+<a href="#current" onClick="sound01040202.playclip()">- Oir -</a>
+<a href="#current" onClick="sound01040203.playclip()">- Oir -</a>
+<a href="#current" onClick="sound01040204.playclip()">- Oir -</a>
+
+</div>
+
+<div class="oracion">
+Reproducir con embed 
+
+<div id="fantasma"></div> 
+<!--
+<bgsound id="mus" src="01040202.mp3" loop="1"> 
+
+<embed type="audio/x-pn-realaudio-plugin" src="01040202.mp3" width=300 height=41 controls=all autostart=true>
+-->
+
+<script language="javascript"> 
+function enciende(){ 
+document.getElementById("fantasma").innerHTML = "<embed src=01040201.mp3 autostart=true hidden=true>" 
+} 
+function apaga(){ 
+document.getElementById("fantasma").innerHTML = "<embed src=01040201.mp3 autostart=false hidden=true>" 
+} 
+</script> 
+<input type=button value="Encender" onClick="enciende()"><br><br> 
+<input type=button value="Apagar" onClick="apaga()"> 
+
+</div>
+<input id="valida" name="validar" value="Validar" type="button" onClick="validaForm('form1');">
+<input id="resetea" name="repetir" value="Repetir" type="button" onClick="reseteaForm('form1');">
+
+</form>
+<script>
+
+</script>
+</body>
+</html>

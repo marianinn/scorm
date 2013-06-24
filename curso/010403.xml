@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="escribir" 
+		enunciado="+ scroll*+caracteresPermitidos" 
+		mascara="0,140,990,520"
+		anchocajas="780"         
+		altocajas="30"
+		maxCaracteres="0"
+		tamTexto="19" 
+		colorTexto="000000" 
+		tamTextoEscrito="19" 
+		colorTextoEscrito="000000"
+		alinearTextoEscrito="left"
+		colorTextoCorregido="000000"
+		fondoCaja="no"
+		colorCaja="000000"
+		bordeCaja="si"
+		colorBorde="787878"
+		permitirMayusculas="si"       
+		distincionMayusculas="si"
+		evaluacion="global"
+		ajustarAContenido="no">
+
+		<ORACION frase="*" solucion="Mr and Mrs Smith, who bought our house, are very nice people#1" x="50" y="220" caracteresPermitidos="^abcABC123,.?\-\\\^>"/>
+		<ORACION frase="*" solucion="Rob, who had been driving all day, was tired and stopped at the petrol station#2" x="50" y="310"/>
+		<ORACION frase="*" solucion="Your uncle, who lives in England, has sent you a present#3" x="50" y="400"/>
+		<ORACION frase="*" solucion="The cake, which fell on the floor, had taken me a long time to make" x="50" y="490"/>
+		<ORACION frase="*" solucion="I've just met George Johnson, who got married last month" x="50" y="580"/>
+		<ORACION frase="*" solucion="Someone stole her car, which was parked outside her house" x="50" y="670"/>
+		<ORACION frase="*" solucion="My younger sister, who is in the café, wants to meet you" x="50" y="760"/>
+		<ORACION frase="*" solucion="My parents, who used to live in Japan, speak Japanese" x="50" y="850"/>
+		
+		
+	</EJERCICIO>
+	<TEXTO texto="$B1./B Mr and Mrs Smith bought our house. They are very nice people." tamTexto="19" colorTexto="000000" x="20" y="180" interlineadoTexto="18"/>	
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="220" interlineadoTexto="18"/>
+	<TEXTO texto="$B2./B Rob had been driving all day. He was tired and stopped at the petrol station." tamTexto="19" colorTexto="000000" x="20" y="270" interlineadoTexto="18"/>
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="310" interlineadoTexto="18"/>	
+	<TEXTO texto="$B3./B Your uncle lives in England. He has sent you a present." tamTexto="19" colorTexto="000000" x="20" y="360" interlineadoTexto="18"/>
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="400" interlineadoTexto="18"/>	
+	<TEXTO texto="$B4./B The cake fell on the floor. It had taken me a long time to make." tamTexto="19" colorTexto="000000" x="20" y="450" interlineadoTexto="18"/>	
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="490" interlineadoTexto="18"/>
+	<TEXTO texto="$B5./B I've just met George Johnson. He got married last month." tamTexto="19" colorTexto="000000" x="20" y="540" interlineadoTexto="18"/>
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="580" interlineadoTexto="18"/>	
+	<TEXTO texto="$B6./B Someone stole her car. It was parked outside her house." tamTexto="19" colorTexto="000000" x="20" y="630" interlineadoTexto="18"/>
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="670" interlineadoTexto="18"/>	
+	<TEXTO texto="$B7./B My younger sister is in the café. She wants to meet you." tamTexto="19" colorTexto="000000" x="20" y="720" interlineadoTexto="18"/>
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="760" interlineadoTexto="18"/>	
+	<TEXTO texto="$B8./B My parents used to live in Japan. They speak Japanese." tamTexto="19" colorTexto="000000" x="20" y="810" interlineadoTexto="18"/>
+	<TEXTO texto="$B/B ." tamTexto="19" colorTexto="000000" x="825" y="850" interlineadoTexto="18"/>

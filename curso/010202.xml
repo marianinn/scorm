@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="botones" 
+		enunciado="Botones + audio" 
+		anchocajas="120" 
+		xBotones="300" 
+		separacionBotones="10"
+		caracterSeparacion=","
+		tamTexto="16" 
+		colorTexto="235689" 
+		tamTextoBoton="22" 
+		colorTextoBoton="235689"
+		desordenar="no"
+		botonesAudio="comprobar"
+		bordesBotones="100">
+		
+		<ORACION  frase="Frase A" opciones="uno,dos" solucion="1" x="200" y="150" xImg="150" yImg="150" anchoImg="poligono" altoImg="0,0:40,40:40,0:0,40"/>
+		<ORACION  frase="Frase B" opciones="uno,dos,tres" solucion="2" x="200" y="250" xImg="150" yImg="250" anchoImg="40" altoImg="40"/>
+
+		<ORACION  frase="Frase C" opciones="uno,dos" solucion="1" x="200" y="450"/>
+		<ORACION  frase="Frase D" opciones="uno,dos" solucion="2" x="200" y="550"/>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bbotones/B" x="900" y="20">
+	</TEXTO>

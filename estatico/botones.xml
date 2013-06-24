@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="botones" 
+		enunciado="Botones + audio" 
+		anchocajas="120"
+		altocajas="30"
+		xBotones="300" 
+		separacionBotones="10"
+		colorBorde="000000"
+		alphaBorde="100"
+		caracterSeparacion=","
+		caracterSalto="*"
+		tamTexto="16" 
+		colorTexto="235689" 
+		interlineadoTexto="0"
+		tamTextoBoton="22" 
+		colorTextoBoton="000000"
+		interlineadoTextoBoton="0"
+		numeracion="si"
+		tamTextoNumeracion="16" 
+		colorTextoNumeracion="895612" 
+		desordenar="no"
+		botonesAudio="siempre">
+		
+		<ORACION frase="Frase A" opciones="uno,dos" solucion="1" x="200" y="150" xImg="150" yImg="150" anchoImg="40" altoImg="40"/>
+		<ORACION frase="Frase B" opciones="uno,dos" solucion="2" x="200" y="250" xImg="150" yImg="250" anchoImg="40" altoImg="40"/>
+		<ORACION frase="*Frase C" opciones="uno,dos,tres,cuatro" solucion="3" x="200" y="500" ajusteHorizontal="0" ajusteVertical="0">
+			<BOTON x="330" y="500" ancho="100" alto="100"/>
+			<BOTON x="440" y="510" ancho="poligono" alto="10,10:125,125:0,125:125,0"/>
+			<BOTON x="850" y="530" ancho="130" alto="28" ajusteHorizontal="0" ajusteVertical="0"/>
+			<BOTON x="850" y="570" ancho="130" alto="28" ajusteHorizontal="0" ajusteVertical="0"/>
+		</ORACION>
+		<ORACION xImg="550" yImg="400" anchoImg="40" altoImg="40"/>
+	</EJERCICIO>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="combo" 
+		enunciado="+ scroll" 
+		mascara="0,140,990,480"
+		anchocajas="220"
+		altocajas="30"
+		tamTexto="19" 
+		colorTexto="000000" 
+		tamTextoCombo="19" 
+		colorTextoCombo="000000"
+		colorBordes="787878"
+		textoInicial="..."
+		desordenarCombos="si"
+		evaluacion="global">
+		
+		
+		
+
+	<ORACION frase="OK. Yesterday, I * to do some of the preparations for our trip. " opciones="managed,'ve managed" solucion="1" x="105" y="250"/>
+	<ORACION frase="I * a twin room in a hostel in Buenos Aires through a travel website and" opciones="reserved,'ve reserved" solucion="1" x="20" y="290"/>
+	<ORACION frase="Great. But we still * on where to go after Chile. " opciones="haven't decided,didn't decide" solucion="1" x="80" y="390"/>
+	<ORACION frase="We should make a travel itinerary soon. At least we * the flights to" opciones="'ve booked,booked" solucion="2" x="20" y="430"/>
+	<ORACION frase="Yes. Um…* your vaccinations yet?" opciones="Did you have, Have you had" solucion="2" x="105" y="530"/>
+	<ORACION frase="I * a vaccination for Hepatitis A and B two years ago, but I " opciones="ve had, had" solucion="2" x="80" y="600"/>
+	<ORACION frase="* the typhoid vaccination yet. I'll book an appointment for next week." opciones="haven't had,didn't have" solucion="1" x="20" y="640"/>
+	<ORACION frase="Oh, I got in touch with a friend, Alex. He * Argentina with his" opciones="visited,'s visited" solucion="1" x="105" y="720"/>
+	<ORACION frase="My family and I * abroad together, but my brother is now on" opciones="'ve never been,never went" solucion="1" x="80" y="880"/>
+	<ORACION frase="How long * there?" opciones="was he,has he been" solucion="2" x="105" y="980"/>
+
+
+	</EJERCICIO>
+
+<TEXTO texto="$ITina and Fatima are talking about their preparations for a backpacking holiday in South America./I" tamTexto="19" colorTexto="000000" x="20" y="150" interlineadoTexto="5"/>
+
+<TEXTO texto="Hi. How's it going?" tamTexto="19" colorTexto="000000" x="80" y="200" interlineadoTexto="5"/>
+<TEXTO texto="$BTina: /B " tamTexto="19" colorTexto="000000" x="20" y="200" interlineadoTexto="5"/>
+
+<TEXTO texto="$BFatima:/B" tamTexto="19" colorTexto="000000" x="20" y="250" interlineadoTexto="5"/>
+<TEXTO texto="I read some guidebooks to find out what are the best places to visit in Latin America." tamTexto="19" colorTexto="000000" x="20" y="330" interlineadoTexto="5"/>
+
+<TEXTO texto="$BTina: /B " tamTexto="19" colorTexto="000000" x="20" y="390" interlineadoTexto="5"/>
+
+<TEXTO texto="Argentina last month." tamTexto="19" colorTexto="000000" x="20" y="470" interlineadoTexto="5"/>
+
+<TEXTO texto="$BFatima:/B" tamTexto="19" colorTexto="000000" x="20" y="530" interlineadoTexto="5"/>
+
+<TEXTO texto="$BTina: /B " tamTexto="19" colorTexto="000000" x="20" y="600" interlineadoTexto="5"/>
+
+<TEXTO texto="$BFatima:/B" tamTexto="19" colorTexto="000000" x="20" y="720" interlineadoTexto="5"/>
+
+<TEXTO texto="parents last summer. He's just sent me an email with some useful information. I'll forward it" tamTexto="19" colorTexto="000000" x="20" y="760" interlineadoTexto="5"/>
+
+<TEXTO texto="to you later." tamTexto="19" colorTexto="000000" x="20" y="810" interlineadoTexto="5"/>
+
+<TEXTO texto="$BTina: /B " tamTexto="19" colorTexto="000000" x="20" y="880" interlineadoTexto="5"/>
+
+<TEXTO texto="holiday in Morocco with his friends." tamTexto="19" colorTexto="000000" x="20" y="910" interlineadoTexto="5"/>
+
+<TEXTO texto="$BFatima:/B" tamTexto="19" colorTexto="000000" x="20" y="980" interlineadoTexto="5"/>
+
+<TEXTO texto="$BTina: /B Since last Sunday. " tamTexto="19" colorTexto="000000" x="20" y="1050" interlineadoTexto="5"/>
+
+
+
+
+
+	

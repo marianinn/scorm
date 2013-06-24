@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="escribir" 
+		enunciado="Ejercicio de escribir  + audio*evaluacion=''parcial''" 
+		anchocajas="50"
+		maxCaracteres="6"
+		tamTexto="20" 
+		colorTexto="235689" 
+		tamTextoEscrito="20" 
+		colorTextoEscrito="FF0000"
+		alinearTextoEscrito="center"
+		colorTextoCorregido="000000"
+		fondoCaja="no"
+		colorCaja="FFECD5"
+		bordeCaja="si"
+		colorBorde="FF0000"
+		permitirMayusculas="solo"
+		distincionMayusculas="no"
+		evaluacion="parcial"
+		bordesBotones="100">
+
+		<ORACION  frase="Este animal es una *." solucion="vaca#cow#1" x="350" y="130" xImg="200" yImg="100" anchoImg="poligono" altoImg="10,10:110,10:100,70:20,70"/>
+		<ORACION  frase="Este animal es una *." solucion="oveja#sheep#2" x="350" y="230" xImg="200" yImg="200" anchoImg="120" altoImg="80"/>
+		<ORACION  frase="Este animal es un *." solucion="perro#dog#3" x="350" y="330" xImg="200" yImg="300" anchoImg="120" altoImg="80"/>
+		<ORACION  frase="Este animal es un *." solucion="gato#cat#4" x="350" y="430" xImg="200" yImg="400" anchoImg="120" altoImg="80"/>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bescribir/B" x="900" y="20">
+	</TEXTO>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="combo" 
+		enunciado="Combos" 
+		anchocajas="100"
+		altocajas="30"
+		tamTexto="16" 
+		colorTexto="235689" 
+		tamTextoCombo="16" 
+		colorTextoCombo="986532"
+		textoInicial="..."
+		caracterSeparacion=","
+		desordenarCombos="si"
+		evaluacion="global"
+		sonidosCorreccionParcial="si"
+		sonidoBienFinal="si">
+		
+		<ORACION frase="uno * uno." opciones="1,2,3,4" solucion="1" x="200" y="150" ancho="80" alto="20" ajusteVertical="5" xImg="150" yImg="150" anchoImg="40" altoImg="40"/>
+		<ORACION frase="dos * dos." opciones="1,2,3,4" solucion="2" x="200" y="250"/>
+	</EJERCICIO>

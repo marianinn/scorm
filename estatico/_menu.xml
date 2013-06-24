@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+	<MENU>
+	<!--MENU unidades="no" nota="SALTO AUTOMÁTICO A PRIMERA UNIDAD"-->
+		<UNIDAD x="410" y="187" ancho="220" alto="72" nota="UNIDAD CON SUBUNIDADES">
+			<SUBUNIDAD x="632" y="616" ancho="178" alto="60" pantallas="menu">
+				<EJERCICIO x="386" y="389" ancho="120" alto="29" pantallas="6"/>
+			</SUBUNIDAD>
+			<SUBUNIDAD x="93" y="660" ancho="342" alto="60" pantallas="menu">
+				<EJERCICIO x="386" y="385" ancho="177" alto="29" pantallas="1"/>
+				<EJERCICIO x="443" y="426" ancho="63" alto="29" pantallas="3"/>
+			</SUBUNIDAD>
+			<SUBUNIDAD x="10" y="100" ancho="50" alto="50" xSud="50" ySud="50" anchoSud="100" altoSud="100" pantallas="menu" nota="SUBUNIDAD CON CAMBIO DE COORDENADAS DEL BOTÓN">
+				<EJERCICIO x="386" y="385" ancho="177" alto="29" pantallas="1"/>
+				<EJERCICIO x="443" y="426" ancho="63" alto="29" pantallas="3"/>
+			</SUBUNIDAD>
+		</UNIDAD>
+		<UNIDAD/>
+		<UNIDAD x="422" y="269" ancho="195" alto="72" nota="UNIDAD CON EJERCICIOS">
+			<EJERCICIO x="386" y="389" ancho="165" alto="29" pantallas="3"/>
+			<EJERCICIO x="283" y="341" ancho="354" alto="29" pantallas="1"/>
+			<EJERCICIO x="376" y="402" ancho="168" alto="29" pantallas="1"/>
+			<EJERCICIO x="354" y="462" ancho="212" alto="29" pantallas="1"/>
+		</UNIDAD>
+		<UNIDAD x="422" y="269" ancho="195" alto="72" nota="UNIDAD CON AUDIOS">
+			<EJERCICIO x="386" y="389" ancho="165" alto="29" pantallas="audio"/>
+			<EJERCICIO x="283" y="341" ancho="354" alto="29" pantallas="audio"/>
+			<EJERCICIO x="376" y="402" ancho="168" alto="29" pantallas="audio"/>
+			<EJERCICIO x="354" y="462" ancho="212" alto="29" pantallas="audio"/>
+		</UNIDAD>
+	</MENU>

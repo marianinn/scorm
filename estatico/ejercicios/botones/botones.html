@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>
+Combos
+</title>
+
+<script src="funciones.js" language="JavaScript"> </script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="mootools.js" language="JavaScript"> </script>
+<script src="moocheck.js" language="JavaScript"> </script>
+</head>
+
+<body>
+<form name="form1" action="combo.html" method="post">
+<input type="hidden" id="a" value="a"/>
+
+<div class="oracion">
+<label class="f_radio unselected" style="outline-width: 0px; outline-style: initial; outline-color: initial; "><input type="radio" name="height" value="dwarf" style="position: absolute; left: +150px; "> Dwarf</label>
+<label class="f_radio unselected" style="outline-width: 0px; outline-style: initial; outline-color: initial; "><input type="radio" name="height" value="average" checked="checked" style="position: absolute; left: +150px; "> Normal Human</label>
+<label class="f_radio selected" style="outline-width: 0px; outline-style: initial; outline-color: initial; "><input type="radio" name="height" value="giant" style="position: absolute; left: +150px; "> Off the scale</label>
+<hr>
+<strong>Gender:</strong>
+		<label class='f_radio'><input type='radio' name='gender' value='male'> Masculine</label>
+		<label class='f_radio'><input type='radio' name='gender' value='female'> Feminine</label>
+		<label class='f_radio'><input type='radio' name='gender' value='common' checked='checked'> Common</label>
+		<label class='f_radio'><input type='radio' name='gender' value='neuter'> Neuter</label>
+</div>
+
+<input id="valida" name="validar" value="Validar" type="button" onClick="validaForm('form1');">
+<input id="resetea" name="repetir" value="Repetir" type="button" onClick="reseteaForm('form1');">
+<input id="prue" name="prueba" value="Prueba" type="button" onClick="probar('textillo');">
+
+</form>
+</body>
+</html>

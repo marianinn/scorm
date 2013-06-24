@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="botones" 
+		enunciado="Botones + desordenar botones *(''si'', ''no'', ''x'', ''y'', ''grupos'')  / numAudios>numFrases" 
+		anchocajas="100" 
+		xBotones="330" 
+		separacionBotones="10"
+		colorBorde="FF0000"
+		alphaBorde="0"
+		caracterSeparacion=","
+		caracterSalto="*"
+		tamTexto="24" 
+		colorTexto="000000" 
+		interlineadoTexto="0"
+		tamTextoBoton="20" 
+		colorTextoBoton="000000"
+		interlineadoTextoBoton="0"
+		numeracion="no"
+		tamTextoNumeracion="16" 
+		colorTextoNumeracion="895612" 
+		desordenar="grupos"
+		botonesAudio="siempre">
+		
+		<ORACION  frase="1--->" opciones="*1,*2,*3,*A,*B,*C,*a,*b,*c" solucion="1" x="100" y="100" xImg="550" yImg="250" anchoImg="40" altoImg="40">
+			<BOTON x="200" y="100" ancho="90" alto="90" grupoDesordenar="1"/>
+			<BOTON x="300" y="100" ancho="90" alto="90" grupoDesordenar="1"/>
+			<BOTON x="400" y="100" ancho="90" alto="90" grupoDesordenar="1"/>
+			<BOTON x="200" y="200" ancho="80" alto="80" grupoDesordenar="1"/>
+			<BOTON x="300" y="200" ancho="80" alto="80" grupoDesordenar="1"/>
+			<BOTON x="400" y="200" ancho="80" alto="80" grupoDesordenar="1"/>
+			<BOTON x="200" y="300" ancho="70" alto="70" grupoDesordenar="2"/>
+			<BOTON x="300" y="300" ancho="70" alto="70" grupoDesordenar="2"/>
+			<BOTON x="400" y="300" ancho="70" alto="70" grupoDesordenar="2"/>
+		</ORACION>
+		<ORACION  frase="2--->" opciones="*1,*2,*3,*A,*B,*C,*a,*b,*c" solucion="1" x="100" y="400" xImg="550" yImg="300" anchoImg="40" altoImg="40">
+			<BOTON x="200" y="400" ancho="90" alto="90" grupoDesordenar="1"/>
+			<BOTON x="300" y="400" ancho="90" alto="90" grupoDesordenar="1"/>
+			<BOTON x="400" y="400" ancho="90" alto="90" grupoDesordenar="1"/>
+			<BOTON x="200" y="500" ancho="80" alto="80" grupoDesordenar="2"/>
+			<BOTON x="300" y="500" ancho="80" alto="80" grupoDesordenar="2"/>
+			<BOTON x="400" y="500" ancho="80" alto="80" grupoDesordenar="2"/>
+			<BOTON x="200" y="600" ancho="70" alto="70" grupoDesordenar="3"/>
+			<BOTON x="300" y="600" ancho="70" alto="70" grupoDesordenar="3"/>
+			<BOTON x="400" y="600" ancho="70" alto="70" grupoDesordenar="3"/>
+		</ORACION>
+		<ORACION xImg="550" yImg="350" anchoImg="40" altoImg="40"/>
+		<ORACION xImg="550" yImg="400" anchoImg="40" altoImg="40"/>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bbotones/B" x="900" y="20">
+	</TEXTO>

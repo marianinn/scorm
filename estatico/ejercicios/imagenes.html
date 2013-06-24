@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+Combos
+</title>
+
+<script src="funciones.js" language="JavaScript"> </script>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body bgcolor="#FFFF00">
+<form name="form1" action="combo.html" method="post">
+<input type="hidden" id="a" value="a"/>
+
+<div class="oracion">
+ <div id="dv1" class="imagen">
+ <img src="01040201.jpg" width="120" height="80" align="absmiddle" onMouseOver="muestra('dv2');">HTMLDivElement
+ </div>
+ <div id="dv2" class="imagen" style="position:absolute;top:10px;visibility:hidden" onMouseOut="oculta('dv2');">
+ <img src="01040201.png" width="120" height="80" align="absmiddle">
+ </div>
+</div>
+
+<input id="valida" name="validar" value="Validar" type="button" onClick="validaForm('form1');">
+<input id="resetea" name="repetir" value="Repetir" type="button" onClick="reseteaForm('form1');">
+<input id="prue" name="prueba" value="Prueba" type="button" onClick="probar('textillo');">
+
+</form>
+
+<script language="javascript">
+
+function muestra(nomCapa)
+{
+	document.getElementById(nomCapa).style.setProperty('visibility','visible');
+}
+
+function oculta(nomCapa)
+{
+	document.getElementById(nomCapa).style.setProperty('visibility','hidden');
+}
+
+</script>
+
+</body>
+</html>

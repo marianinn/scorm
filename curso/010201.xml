@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="botones" 
+		enunciado="Indique si les possessifs du texte suivant sont *des adjectifs ou des pronoms." 
+		anchocajas="120" 
+		xBotones="450" 
+		separacionBotones="10"
+		caracterSeparacion=";"
+		caracterSalto="*"
+		tamTexto="16" 
+		colorTexto="235689" 
+		interlineadoTexto="-8"
+		tamTextoBoton="22" 
+		colorTextoBoton="555555"
+		colorTextoBotonSelecionado="FF0000"
+		colorTextoBotonNoSelecionado="0000FF"
+		interlineadoTextoBoton="-2"
+		alinearTextoBoton="left"
+		numeracion="si"
+		tamTextoNumeracion="16" 
+		colorTextoNumeracion="895612" 
+		desordenar="no">
+		
+		<ORACION  frase="Frédéric, c'est son frère." opciones="adjectif* ;pronom* ;xxssss*xx" solucion="2" x="100" y="120" ajusteHorizontal="5" ajusteVertical="5"/>
+		<ORACION  frase="Il est blond comme le mien." opciones="adjectif,1;pronom,0" solucion="1" x="100" y="180"/>
+		<ORACION  frase="Mais il a les yeux bleus comme le tien." opciones="adjectif,0;pronom,1" solucion="2" x="100" y="220"/>
+		<ORACION  frase="Ma cousine s'appelle Sylvie." opciones="adjectif;pronom" solucion="1" x="100" y="260"/>
+		<ORACION  frase="Elle n'est pas aussi grande que la tienne." opciones="adjectif;pronom" solucion="2" x="100" y="300"/>
+		<ORACION  frase="Mes parents sont sympathiques et tolérants." opciones="adjectif;pronom" solucion="1" x="100" y="340"/>
+		<ORACION  frase="Pas comme ceux de Marc. Les siens sont *autoritaires." opciones="adjectif;pronom" solucion="2" x="100" y="380"/>
+		<ORACION  frase="Par contre ses parents sont compréhensifs." opciones="adjectif;pronom" solucion="1" x="100" y="450"/>
+		<ORACION  frase="Comme *les *miens." opciones="adjectif;pronom" solucion="2" x="100" y="490"/>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bbotones/B" x="900" y="20">
+	</TEXTO>
+	
+	
+	<TEXTO texto="texto normal" x="650" y="190"/>
+	<TEXTO texto="texto $Bnegrita/B*abc" x="700" y="250" tamTexto="15" colorTexto="FF5555" interlineadoTexto="10" alinearTexto="center" fuente="1" posicion="debajo"/>
+	<TEXTO texto="texto $Icursiva/I" x="750" y="300" tamTexto="20" colorTexto="000000" interlineadoTexto="10" alinearTexto="right" posicion="debajo"/>
+	<TEXTO texto="texto*$B$Inegrita cursiva/I/B*$F#568900#123456$B78/B90/F*$Utexto subrayado/U" x="650" y="300" tamTexto="18" colorTexto="235689" interlineadoTexto="10" alinearTexto="left" fuente="2" posicion="encima"/>
+	<IMG archivo="010201b.jpg" x="150" y="50" posicion="encima"/>
+	<IMG archivo="010201b.jpg" x="550" y="50" posicion="debajo"/>
+	

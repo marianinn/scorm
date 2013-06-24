@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="botones" 
+		enunciado="botones + scroll" 
+		mascara="0,140,990,480"
+		anchocajas="160" 
+		altocajas="27" 
+		xBotones="300" 
+		separacionBotones="10"
+		colorBorde="787878"
+		alphaBorde="100"
+		caracterSeparacion=","
+		caracterSalto="*"
+		tamTexto="19" 
+		colorTexto="000000" 
+		interlineadoTexto="5"
+		tamTextoBoton="19" 
+		colorTextoBoton="000000"
+		interlineadoTextoBoton="0"
+		desordenar="no">
+		
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="1" x="0" y="175"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="2" x="0" y="225"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="2" x="0" y="275"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="2" x="0" y="325"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="2" x="0" y="375"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="2" x="0" y="425"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="1" x="0" y="475"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="1" x="0" y="525"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="1" x="0" y="575"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="2" x="0" y="625"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="3" x="0" y="675"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="1" x="0" y="725"/>
+		<ORACION frase="" opciones="Action,Stative,Action & stative" solucion="2" x="0" y="775"/>
+	</EJERCICIO>
+<TEXTO texto="$B1./B" tamTexto="19" colorTexto="000000" x="120" y="175" interlineadoTexto="5"/>
+<TEXTO texto="Bake" tamTexto="19" colorTexto="000000" x="150" y="175" interlineadoTexto="5"/>
+
+<TEXTO texto="$B2./B" tamTexto="19" colorTexto="000000" x="120" y="225" interlineadoTexto="5"/>
+<TEXTO texto="Cost" tamTexto="19" colorTexto="000000" x="150" y="225" interlineadoTexto="5"/>
+
+<TEXTO texto="$B3./B" tamTexto="19" colorTexto="000000" x="120" y="275" interlineadoTexto="5"/>
+<TEXTO texto="Have got" tamTexto="19" colorTexto="000000" x="150" y="275" interlineadoTexto="5"/>
+
+<TEXTO texto="$B4./B" tamTexto="19" colorTexto="000000" x="120" y="325" interlineadoTexto="5"/>
+<TEXTO texto="Hope" tamTexto="19" colorTexto="000000" x="150" y="325" interlineadoTexto="5"/>
+
+<TEXTO texto="$B5./B" tamTexto="19" colorTexto="000000" x="120" y="375" interlineadoTexto="5"/>
+<TEXTO texto="Like" tamTexto="19" colorTexto="000000" x="150" y="375" interlineadoTexto="5"/>
+
+<TEXTO texto="$B6./B" tamTexto="19" colorTexto="000000" x="120" y="425" interlineadoTexto="5"/>
+<TEXTO texto="Love" tamTexto="19" colorTexto="000000" x="150" y="425" interlineadoTexto="5"/>
+
+<TEXTO texto="$B7./B" tamTexto="19" colorTexto="000000" x="120" y="475" interlineadoTexto="5"/>
+<TEXTO texto="Make" tamTexto="19" colorTexto="000000" x="150" y="475" interlineadoTexto="5"/>
+
+<TEXTO texto="$B8./B" tamTexto="19" colorTexto="000000" x="120" y="525" interlineadoTexto="5"/>
+<TEXTO texto="Put" tamTexto="19" colorTexto="000000" x="150" y="525" interlineadoTexto="5"/>
+
+<TEXTO texto="$B9./B" tamTexto="19" colorTexto="000000" x="120" y="575" interlineadoTexto="5"/>
+<TEXTO texto="Rise" tamTexto="19" colorTexto="000000" x="150" y="575" interlineadoTexto="5"/>
+
+<TEXTO texto="$B10./B" tamTexto="19" colorTexto="000000" x="117" y="625" interlineadoTexto="5"/>
+<TEXTO texto="Smell" tamTexto="19" colorTexto="000000" x="150" y="625" interlineadoTexto="5"/>
+
+<TEXTO texto="$B11./B" tamTexto="19" colorTexto="000000" x="117" y="675" interlineadoTexto="5"/>
+<TEXTO texto="Think" tamTexto="19" colorTexto="000000" x="150" y="675" interlineadoTexto="5"/>
+
+<TEXTO texto="$B12./B" tamTexto="19" colorTexto="000000" x="117" y="725" interlineadoTexto="5"/>
+<TEXTO texto="Use" tamTexto="19" colorTexto="000000" x="150" y="725" interlineadoTexto="5"/>
+
+<TEXTO texto="$B13./B" tamTexto="19" colorTexto="000000" x="117" y="775" interlineadoTexto="5"/>
+<TEXTO texto="Weigh" tamTexto="19" colorTexto="000000" x="150" y="775" interlineadoTexto="5"/>

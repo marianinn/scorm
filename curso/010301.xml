@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="combo" 
+		enunciado="Choisis la conjonction qui convient pour unir les deux propositions." 
+		anchocajas="100"
+		tamTexto="16" 
+		colorTexto="235689" 
+		tamTextoCombo="16" 
+		colorTextoCombo="986532"
+		caracterSeparacion=";">
+		
+		<ORACION  frase="Tu dors * tu as sommeil." opciones="car,1;pourtant,1" solucion="1#2" x="200" y="150" ajusteAncho="-30"/>
+		<ORACION  frase="J'ai sommeil * je ne dors pas." opciones="car,0;pourtant,1" solucion="2" x="200" y="200" ajusteAncho="50"/>
+		<ORACION  frase="Nous avons faim * nous ne mangeons pas." opciones="car,1;pourtant,0" solucion="1" x="200" y="250"/>
+		<ORACION  frase="Nous mangeons * nous avons faim." opciones="car;pourtant" solucion="1" x="200" y="300"/>
+		<ORACION  frase="Nous parlons * nous sommes bavards." opciones="car;pourtant" solucion="1" x="200" y="350"/>
+		<ORACION  frase="Nous sautons de joie * nous sommes contents." opciones="car;pourtant" solucion="1" x="200" y="400"/>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bcombo/B" x="900" y="20">
+	</TEXTO>
+	
+	
+	<IMG archivo="010201b.jpg" x="450" y="50" posicion="encima"/>
+	<IMG archivo="010201b.jpg" x="300" y="50" posicion="debajo"/>
+	

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="botones" 
+		enunciado="Botones con imgs" 
+		anchocajas="100" 
+		xBotones="330" 
+		separacionBotones="10"
+		colorBorde="FF0000"
+		alphaBorde="100"
+		tamTexto="24" 
+		colorTexto="000000" 
+		tamTextoBoton="20" 
+		colorTextoBoton="000000"
+		desordenar="no">
+		
+		<ORACION  frase="*Frase A" opciones="," solucion="1" x="200" y="100"/>
+		<ORACION  frase="*Frase B" opciones=",," solucion="2" x="200" y="300"/>
+		<ORACION  frase="*Frase C" opciones="www,www,www,www,qwerty,asdfghjklasdfghjkl" solucion="3" x="200" y="500">
+			<BOTON x="330" y="500" ancho="100" alto="100"/>
+			<BOTON x="440" y="510" ancho="poligono" alto="10,10:125,125:0,125:125,0" ajusteHorizontal="110"/>
+			<BOTON x="580" y="520" ancho="poligono" alto="0,0:120,0:120,150:0,150"  ajusteHorizontal="110"/>
+			<BOTON x="720" y="530" ancho="120" alto="80"/>
+			<BOTON x="850" y="530" ancho="130" alto="28" ajusteHorizontal="5" ajusteVertical="-5"/>
+			<BOTON x="850" y="570" ancho="130" alto="28" ajusteVertical="5"/>
+		</ORACION>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bbotones/B" x="900" y="20">
+	</TEXTO>

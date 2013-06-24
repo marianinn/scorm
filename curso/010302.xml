@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+	<EJERCICIO 
+		tipo="combo" 
+		enunciado="combos + audio" 
+		anchocajas="120"
+		tamTexto="23" 
+		colorTexto="235689" 
+		tamTextoCombo="20" 
+		colorTextoCombo="986532"
+		bordesBotones="100">
+		
+		<ORACION  frase="Tu dors * tu as sommeil." opciones="cary,pourtant,cosa,ente" solucion="1#2#3" x="200" y="150" alto="48" ajusteVertical="0" xImg="150" yImg="150" anchoImg="40" altoImg="40"/>
+		<ORACION  frase="J'ai sommeil * je ne dors pas." opciones="car,pourtant,uno,dos" solucion="2" x="200" y="250" alto="28" xImg="150" yImg="250" anchoImg="poligono" altoImg="5,22:5,38:15,40:40,60:40,0:15,20:15,40:15,20"/>
+	</EJERCICIO>
+	<TEXTO texto="tipo: *$Bcombo/B" x="900" y="20">
+	</TEXTO>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+	<PARAM 
+		nombreProducto ="pruebas módulos" 
+		colorFondo="FFFFFF"
+		pantallaFinal="si"
+
+		xEnunciados ="50" 
+		yEnunciados ="40" 
+		tamEnunciados ="18" 
+		colorEnunciados ="5C0101" 
+
+		xTitulos ="200" 
+		yTitulos ="0" 
+
+		xSalir="899" 
+		ySalir="703" 
+		anchoSalir="109" 
+		altoSalir="43" 
+		sonidoSalir="click01"
+		
+		xSalirUnidades="900" 
+		ySalirUnidades="700" 
+		anchoSalirUnidades="100" 
+		altoSalirUnidades="50" 
+		saliren2menu="si"
+		audioen2menu="musica"
+
+		xSalirEjercicio="900" 
+		ySalirEjercicio="740"
+		anchoSalirEjercicio="60" 
+		altoSalirEjercicio="30" 
+
+		xMenu="0" 
+		yMenu="0" 
+		anchoMenu="0" 
+		altoMenu="0" 
+		sonidoMenu="click01"
+
+		xMenuEjercicio="0" 
+		yMenuEjercicio="0" 
+		anchoMenuEjercicio="0" 
+		altoMenuEjercicio="0" 
+		sonidoMenuEjercicio="click01" 
+
+		xAtras="900" 
+		yAtras="690" 
+		anchoAtras="100" 
+		altoAtras="50" 
+		sonidoAtras="click01" 
+
+		xCreditos="750" 
+		yCreditos="700" 
+		anchoCreditos="130" 
+		altoCreditos="50" 
+		sonidoCreditos="click01" 
+
+		xWeb="0" 
+		yWeb="0" 
+		anchoWeb="0" 
+		altoWeb="0"
+		urlWeb="www"
+		sonidoWeb="click01" 
+
+		visualComprobar="inicio"
+		comprobarAuto="no"
+		botonesComprobarAuto="si"
+		xComprobar ="50" 
+		yComprobar ="700" 
+		anchoComprobar ="100" 
+		altoComprobar ="25"
+
+		visualSoluciones="comprobar"
+		xSoluciones ="150" 
+		ySoluciones ="725" 
+		anchoSoluciones ="100" 
+		altoSoluciones ="25" 
+
+		visualSiguiente="si"
+		xSiguiente="650" 
+		ySiguiente="725" 
+		anchoSiguiente ="100" 
+		altoSiguiente ="25" 
+		sonidoSiguiente="click01" 
+
+		xAnterior="550" 
+		yAnterior="700" 
+		anchoAnterior ="100" 
+		altoAnterior ="25" 
+		sonidoAnterior="click01" 
+
+		xRecargar="300" 
+		yRecargar="700" 
+		anchoRecargar ="100" 
+		altoRecargar ="50" 
+		sonidoRecargar="click01" 
+		modulosConRecargar="arrastrar,arrastrarimg,arrastraryrepetir,botones,cazamariposas,cazamariposas2,clasificar,colorear,combo,crucigrama,dictado,escribir,escucharyrepetir,historia,laberinto,memory,paisajesonoro,pulsar,puzzle,relacionar,relacionarpuzzle,simon,sopa,test,testarrastrar" 
+
+		visualReintentar="normal"
+		xReintentar="300" 
+		yReintentar="700" 
+		anchoReintentar ="100" 
+		altoReintentar ="50"
+		sonidoReintentar="click01" 
+		maxNumReintentos="5"
+		contarReintentoNulo="si"
+		modulosConReintentar="arrastrar,arrastrarimg,botones,clasificar,colorear,combo,escribir,crucigrama,dictado,pulsar,relacionar" 
+
+		xAyuda="-20"
+		yAyuda="-20"
+		anchoAyuda ="20"
+		altoAyuda ="20"
+		sonidoAyuda="click01" 
+
+		xMas = "0"
+		yMas = "0"
+		anchoMas = "0" 
+		altoMas = "0"
+		sonidoMas="click01" 
+
+		xMenos = "0" 
+		yMenos = "0"
+		anchoMenos = "0" 
+		altoMenos = "0"
+		sonidoMenos="click01" 
+
+		margenSuperior="0" 
+		margenIzquierdo="0"
+
+		tamOtrosTextos ="12" 
+		colorOtrosTextos ="235689"
+
+		listadoEjercicios = "todos"
+
+		xEjercicioSiguiente="0"
+		yEjercicioSiguiente="0"
+		anchoEjercicioSiguiente ="0"
+		altoEjercicioSiguiente ="0"
+		sonidoEjercicioSiguiente="click01" 
+
+		xEjercicioAnterior="0"
+		yEjercicioAnterior="0" 
+		anchoEjercicioAnterior ="0" 
+		altoEjercicioAnterior ="0"
+		sonidoEjercicioAnterior="click01" 
+
+		tiempoCreditos="0"
+		
+		colorVerdeComprobar="006532"
+		colorRojoComprobar="FF6532"
+		colorRollOver="b78100"
+		colorResaltar="eeff00"
+		colorDifuminar="BdBeA9"
+		colorMarcar="D61818"
+
+		audiosSoluciones="mal,mal,mal,mal,mal,bien05,bien05,bien05,bien08,bien08,bien">
+	</PARAM>
