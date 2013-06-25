@@ -76,6 +76,8 @@ $oOracion=$oEjercicio->getoOracion();
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Ejercicio</title>
 <script src="js/funciones.js" language="JavaScript"> </script>
+<script src="js/APIWrapper.js" language="JavaScript"></script>
+<script src="js/toScorm.js" language="JavaScript"> </script>
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
 <style type="text/css">
 <?
@@ -185,7 +187,10 @@ echo $_SESSION['pantallas'] . "-". intval($sPP);
 <script> 
 	window.onload = function() 
 	{
-		//document.getElementById("0101").onclick = Marca;	
+		//SCORM
+                initScorm();
+
+                //document.getElementById("0101").onclick = Marca;
 		var formulario = document.getElementById("<? echo "form".$UUEEPP; ?>");
 		// var camposInput = formulario.getElementsByTagName("input");
 		var camposInput = document.forms['<? echo "form".$UUEEPP; ?>'].elements;
@@ -203,6 +208,8 @@ echo $_SESSION['pantallas'] . "-". intval($sPP);
 				*/
 			}
 		}
+                
+                
 	} 
 </script>
 </body>

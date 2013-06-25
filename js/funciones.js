@@ -2,11 +2,17 @@ var bComparaMayusculas = true;  //Variable para elegir si se validaran mayuscula
 var sFoco =""; 	// Variable que guarda el elemento que tiene el foco por si se utilizan botones en ejercicios de escribir
 
 
+var aPreguntas = new Array();
+var fPorcentajeAciertos = 0.0;
+
+
 function validaForm(nomForm)
 {
 	var i;
 	var sAux="";
 	var frm = document.forms[nomForm];
+        aPreguntas= new Array();
+        
 	//frm = document.getElementById(nomForm);
 	for (i=0;i<frm.elements.length;i++)
 	{
@@ -18,9 +24,34 @@ function validaForm(nomForm)
 	for (i=0;i<frm.elements.length;i++)
 	{
 		respuesta (frm.elements[i],bComparaMayusculas);			
+                
 	}
-	
-	alert(sAux);
+
+       // alert(aPreguntas.join(","));
+
+        //DEBUG
+	//alert(sAux);
+}
+
+
+function getPuntuacion (){
+    
+    var iAciertos=0;
+    
+    
+    
+    for (i=0;i<aPreguntas.length;i++)
+    {
+        if (aPreguntas[i]==true)
+            iAciertos++;
+    }
+
+    //fPorcentajeAciertos=parseFloat((iAciertos/aPreguntas.length)*100);
+    
+    fPorcentajeAciertos=Math.round((iAciertos/aPreguntas.length)*100);
+    return fPorcentajeAciertos;
+        
+        
 }
 
 function validaUno(nomForm, campo)
@@ -94,7 +125,6 @@ function respuesta(campo,distingueMays)
 
 function esCorrecto (respuesta,respuestas,distingueMays)
 {
-
 	if (distingueMays == false)
 	{
 		respuesta = respuesta.toLowerCase();
@@ -109,9 +139,15 @@ function esCorrecto (respuesta,respuestas,distingueMays)
 		if (arrRespuestas[i]==respuesta)
 		{
 			bCorrecto=true;
-			break
+			break;
 		}
 	}
+        
+        //SCORM
+        aPreguntas[aPreguntas.length]=bCorrecto;
+        
+        //alert(aPreguntas.length+"-"+aPreguntas[aPreguntas.length-1]);
+        
 	return bCorrecto;
 	
 }

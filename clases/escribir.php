@@ -168,9 +168,9 @@ class escribir extends ejercicio
 		
 		$sBotones='';
 		$sBotonCorrige = "
-		<input id='corrige' name='corregir' value='Corregir' $sValidaParcial type='button' onClick=\"validaForm('form$this->idEjercicio');\">";
+		<input id='corrige' name='corregir' value='Corregir' $sValidaParcial type='button' onClick=\"validaForm('form$this->idEjercicio');endScorm(getPuntuacion());\">";
 		//    
-		$sBotonReset = "<input id='resetea' name='repetir' value='Repetir' type='button' onClick=\"reseteaForm('form$this->idEjercicio');\">";
+		$sBotonReset = "<input id='resetea' name='repetir' value='Repetir' type='button' onClick=\"reseteaForm('form$this->idEjercicio');partialScorm(getPuntuacion());\">";
 		
 		$sBotones = $sBotonCorrige . " - " . $sBotonReset;
 		
